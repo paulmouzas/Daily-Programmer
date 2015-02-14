@@ -14,8 +14,6 @@ def get_char(x, y):
 dirs = [(-1, 0), (1, 0), (0, 1), (0, -1)]
 
 c_to_fill = get_char(x, y)
-print c_to_fill
-print x,y
 
 def fill_image(x, y, c, c_to_fill):
     if get_char(x, y) == c_to_fill:
